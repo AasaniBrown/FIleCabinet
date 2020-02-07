@@ -25,6 +25,8 @@ gem 'simple_form'
 
 gem 'haml'
 
+# gem 'better_errors', '~> 2.5', '>= 2.5.1'
+
 group :development, :test do
 
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -49,8 +51,3 @@ end
 
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-group :development do
-  gem "better_errors"
-  gem "binding_of_caller"
-end

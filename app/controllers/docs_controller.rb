@@ -28,7 +28,7 @@ before_action :find_doc, only: [:show, :edit, :update, :destroy]
 
   def update
     if @doc.update(doc_params)
-      redirect_to doc_params
+      redirect_to @doc
     else
       render 'edit'
     end
